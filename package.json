@@ -1,0 +1,41 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Emrldprog emrld.prog@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMRLDprog/frontend-project-44.git"
+  },
+  "keywords": [
+    "hexlet",
+    "project",
+    "44"
+  ],
+  "author": "EMRLD prog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EMRLDprog/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/EMRLDprog/frontend-project-44#readme",
+  "type": "module",
+  "bin": {
+    "brain-calc": "bin/brain-calc.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-games": "bin/brain-games.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-prime": "bin/brain-prime.js",
+    "brain-progression": "bin/brain-progression.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
